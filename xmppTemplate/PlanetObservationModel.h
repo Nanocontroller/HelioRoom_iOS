@@ -17,4 +17,9 @@
 -(void)sendGroupMessage:(NSString *)msg;
 -(int)inFrontGroupMessage:(NSString *)planet1:(NSString *)planet2;
 
+//MONGO
+-(int)updateMongoPlanetOrder:(NSString *)planet1:(NSString *)planet2;
+-(int)checkMongoPlanetOrder:(NSString *)planet1:(NSString *)planet2;
+-(int)updateMongoPlanetIdentify:(NSString *)planetColor:(NSString *)planetName;
+-(int)checkMongoPlanetIdentify:(NSString *)planetColor:(NSString *)planetName;
 @end
