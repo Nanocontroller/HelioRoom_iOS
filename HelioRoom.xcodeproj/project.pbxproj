@@ -108,7 +108,6 @@
 		700C3B3816042FEE005A9E34 /* XMPPReconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 700C3B3616042FE5005A9E34 /* XMPPReconnect.m */; };
 		700C3B3A160430DA005A9E34 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700C3B39160430DA005A9E34 /* SystemConfiguration.framework */; };
 		707C2C3916080C6A00A09AB8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C2C3816080C6A00A09AB8 /* LoginViewController.m */; };
-		8401631C16499209002F9F9C /* icon_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 8401631B16499209002F9F9C /* icon_144.png */; };
 		8402065D164C3E3D00010A99 /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 84020657164C3E3D00010A99 /* brown.png */; };
 		8402065E164C3E3D00010A99 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 84020658164C3E3D00010A99 /* gray.png */; };
 		8402065F164C3E3D00010A99 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 84020659164C3E3D00010A99 /* green.png */; };
@@ -129,14 +128,6 @@
 		8474EC5E16B45CEB00FA0EA7 /* OrderReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8474EC5D16B45CEB00FA0EA7 /* OrderReasonViewController.m */; };
 		849D0AEB16B436F200F8002D /* TheoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0AE816B436F200F8002D /* TheoriesViewController.m */; };
 		849D0AEC16B436F200F8002D /* TheoryReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0AEA16B436F200F8002D /* TheoryReasonViewController.m */; };
-		849DDE5116169EEB00CA5B95 /* bcon.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4016169EEB00CA5B95 /* bcon.c */; };
-		849DDE5216169EEB00CA5B95 /* bson.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4216169EEB00CA5B95 /* bson.c */; };
-		849DDE5316169EEB00CA5B95 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4416169EEB00CA5B95 /* encoding.c */; };
-		849DDE5416169EEB00CA5B95 /* env_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4716169EEB00CA5B95 /* env_posix.c */; };
-		849DDE5716169EEB00CA5B95 /* gridfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4A16169EEB00CA5B95 /* gridfs.c */; };
-		849DDE5816169EEB00CA5B95 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4C16169EEB00CA5B95 /* md5.c */; };
-		849DDE5916169EEB00CA5B95 /* mongo.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE4E16169EEB00CA5B95 /* mongo.c */; };
-		849DDE5A16169EEB00CA5B95 /* numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 849DDE5016169EEB00CA5B95 /* numbers.c */; };
 		84CB9535164C1BA900D01390 /* grabPlanet.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CB9534164C1BA900D01390 /* grabPlanet.png */; };
 		84CB9537164C23CF00D01390 /* submitButtonText.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CB9536164C23CF00D01390 /* submitButtonText.png */; };
 		84CC866D162341B0004484D7 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC866C162341B0004484D7 /* blank.png */; };
@@ -191,6 +182,7 @@
 		84F352D216507EAA00DEB764 /* pinkLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CC16507EAA00DEB764 /* pinkLg.png */; };
 		84F352D316507EAA00DEB764 /* purpleLg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F352CD16507EAA00DEB764 /* purpleLg.png */; };
 		84F9826E16B43F0A00804BE4 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9826D16B43F0A00804BE4 /* OrderViewController.m */; };
+		850AF2D016B9B4F60006C6E7 /* tag_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 850AF2CF16B9B4F60006C6E7 /* tag_gray.png */; };
 		852DCB1516B87AA5002D4B50 /* planet_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB1416B87AA5002D4B50 /* planet_bg.png */; };
 		852DCB3216B8895F002D4B50 /* p_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2A16B8895F002D4B50 /* p_blue.png */; };
 		852DCB3316B8895F002D4B50 /* p_brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB2B16B8895F002D4B50 /* p_brown.png */; };
@@ -202,7 +194,14 @@
 		852DCB3916B8895F002D4B50 /* p_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DCB3116B8895F002D4B50 /* p_yellow.png */; };
 		85398E6316B8495C002CD478 /* shape_cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 85398E6216B8495C002CD478 /* shape_cloud.png */; };
 		85398E6516B84BAF002CD478 /* background_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 85398E6416B84BAF002CD478 /* background_01.png */; };
-		855A893E16B8327C002C8FB7 /* Helio_Icon2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 855A893D16B8327C002C8FB7 /* Helio_Icon2X.png */; };
+		8547C33416B9A1B6008F1ED3 /* bcon.c in Sources */ = {isa = PBXBuildFile; fileRef = 8547C32516B9A1B6008F1ED3 /* bcon.c */; };
+		8547C33516B9A1B6008F1ED3 /* bson.c in Sources */ = {isa = PBXBuildFile; fileRef = 8547C32716B9A1B6008F1ED3 /* bson.c */; };
+		8547C33616B9A1B6008F1ED3 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 8547C32916B9A1B6008F1ED3 /* encoding.c */; };
+		8547C33716B9A1B6008F1ED3 /* env.c in Sources */ = {isa = PBXBuildFile; fileRef = 8547C32B16B9A1B6008F1ED3 /* env.c */; };
+		8547C33816B9A1B6008F1ED3 /* gridfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 8547C32D16B9A1B6008F1ED3 /* gridfs.c */; };
+		8547C33916B9A1B6008F1ED3 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 8547C32F16B9A1B6008F1ED3 /* md5.c */; };
+		8547C33A16B9A1B6008F1ED3 /* mongo.c in Sources */ = {isa = PBXBuildFile; fileRef = 8547C33116B9A1B6008F1ED3 /* mongo.c */; };
+		8547C33B16B9A1B6008F1ED3 /* numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 8547C33316B9A1B6008F1ED3 /* numbers.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -313,7 +312,6 @@
 		700C3B39160430DA005A9E34 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		707C2C3716080C6A00A09AB8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		707C2C3816080C6A00A09AB8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		8401631B16499209002F9F9C /* icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_144.png; sourceTree = "<group>"; };
 		84020657164C3E3D00010A99 /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brown.png; path = Planets/brown.png; sourceTree = "<group>"; };
 		84020658164C3E3D00010A99 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gray.png; path = Planets/gray.png; sourceTree = "<group>"; };
 		84020659164C3E3D00010A99 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = Planets/green.png; sourceTree = "<group>"; };
@@ -339,21 +337,6 @@
 		849D0AE816B436F200F8002D /* TheoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheoriesViewController.m; sourceTree = "<group>"; };
 		849D0AE916B436F200F8002D /* TheoryReasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheoryReasonViewController.h; sourceTree = "<group>"; };
 		849D0AEA16B436F200F8002D /* TheoryReasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheoryReasonViewController.m; sourceTree = "<group>"; };
-		849DDE4016169EEB00CA5B95 /* bcon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bcon.c; sourceTree = "<group>"; };
-		849DDE4116169EEB00CA5B95 /* bcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bcon.h; sourceTree = "<group>"; };
-		849DDE4216169EEB00CA5B95 /* bson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bson.c; sourceTree = "<group>"; };
-		849DDE4316169EEB00CA5B95 /* bson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bson.h; sourceTree = "<group>"; };
-		849DDE4416169EEB00CA5B95 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
-		849DDE4516169EEB00CA5B95 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
-		849DDE4616169EEB00CA5B95 /* env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env.h; sourceTree = "<group>"; };
-		849DDE4716169EEB00CA5B95 /* env_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = env_posix.c; sourceTree = "<group>"; };
-		849DDE4A16169EEB00CA5B95 /* gridfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gridfs.c; sourceTree = "<group>"; };
-		849DDE4B16169EEB00CA5B95 /* gridfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridfs.h; sourceTree = "<group>"; };
-		849DDE4C16169EEB00CA5B95 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
-		849DDE4D16169EEB00CA5B95 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
-		849DDE4E16169EEB00CA5B95 /* mongo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mongo.c; sourceTree = "<group>"; };
-		849DDE4F16169EEB00CA5B95 /* mongo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongo.h; sourceTree = "<group>"; };
-		849DDE5016169EEB00CA5B95 /* numbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = numbers.c; sourceTree = "<group>"; };
 		84CB9534164C1BA900D01390 /* grabPlanet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grabPlanet.png; sourceTree = "<group>"; };
 		84CB9536164C23CF00D01390 /* submitButtonText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitButtonText.png; sourceTree = "<group>"; };
 		84CC866C162341B0004484D7 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
@@ -439,6 +422,7 @@
 		84F352CD16507EAA00DEB764 /* purpleLg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleLg.png; sourceTree = "<group>"; };
 		84F9826C16B43F0A00804BE4 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = SOURCE_ROOT; };
 		84F9826D16B43F0A00804BE4 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = SOURCE_ROOT; };
+		850AF2CF16B9B4F60006C6E7 /* tag_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_gray.png; sourceTree = "<group>"; };
 		852DCB1416B87AA5002D4B50 /* planet_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = planet_bg.png; path = Planets/planet_bg.png; sourceTree = "<group>"; };
 		852DCB2A16B8895F002D4B50 /* p_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_blue.png; sourceTree = "<group>"; };
 		852DCB2B16B8895F002D4B50 /* p_brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_brown.png; sourceTree = "<group>"; };
@@ -450,7 +434,21 @@
 		852DCB3116B8895F002D4B50 /* p_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_yellow.png; sourceTree = "<group>"; };
 		85398E6216B8495C002CD478 /* shape_cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shape_cloud.png; path = Planets/shape_cloud.png; sourceTree = "<group>"; };
 		85398E6416B84BAF002CD478 /* background_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_01.png; sourceTree = "<group>"; };
-		855A893D16B8327C002C8FB7 /* Helio_Icon2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Helio_Icon2X.png; sourceTree = "<group>"; };
+		8547C32516B9A1B6008F1ED3 /* bcon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bcon.c; path = "../../../repos/mongo-c-driver/src/bcon.c"; sourceTree = "<group>"; };
+		8547C32616B9A1B6008F1ED3 /* bcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bcon.h; path = "../../../repos/mongo-c-driver/src/bcon.h"; sourceTree = "<group>"; };
+		8547C32716B9A1B6008F1ED3 /* bson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bson.c; path = "../../../repos/mongo-c-driver/src/bson.c"; sourceTree = "<group>"; };
+		8547C32816B9A1B6008F1ED3 /* bson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bson.h; path = "../../../repos/mongo-c-driver/src/bson.h"; sourceTree = "<group>"; };
+		8547C32916B9A1B6008F1ED3 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = encoding.c; path = "../../../repos/mongo-c-driver/src/encoding.c"; sourceTree = "<group>"; };
+		8547C32A16B9A1B6008F1ED3 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = encoding.h; path = "../../../repos/mongo-c-driver/src/encoding.h"; sourceTree = "<group>"; };
+		8547C32B16B9A1B6008F1ED3 /* env.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = env.c; path = "../../../repos/mongo-c-driver/src/env.c"; sourceTree = "<group>"; };
+		8547C32C16B9A1B6008F1ED3 /* env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = env.h; path = "../../../repos/mongo-c-driver/src/env.h"; sourceTree = "<group>"; };
+		8547C32D16B9A1B6008F1ED3 /* gridfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gridfs.c; path = "../../../repos/mongo-c-driver/src/gridfs.c"; sourceTree = "<group>"; };
+		8547C32E16B9A1B6008F1ED3 /* gridfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gridfs.h; path = "../../../repos/mongo-c-driver/src/gridfs.h"; sourceTree = "<group>"; };
+		8547C32F16B9A1B6008F1ED3 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5.c; path = "../../../repos/mongo-c-driver/src/md5.c"; sourceTree = "<group>"; };
+		8547C33016B9A1B6008F1ED3 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "../../../repos/mongo-c-driver/src/md5.h"; sourceTree = "<group>"; };
+		8547C33116B9A1B6008F1ED3 /* mongo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mongo.c; path = "../../../repos/mongo-c-driver/src/mongo.c"; sourceTree = "<group>"; };
+		8547C33216B9A1B6008F1ED3 /* mongo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mongo.h; path = "../../../repos/mongo-c-driver/src/mongo.h"; sourceTree = "<group>"; };
+		8547C33316B9A1B6008F1ED3 /* numbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = numbers.c; path = "../../../repos/mongo-c-driver/src/numbers.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -477,8 +475,6 @@
 		700C3A42160427DA005A9E34 = {
 			isa = PBXGroup;
 			children = (
-				855A893D16B8327C002C8FB7 /* Helio_Icon2X.png */,
-				8401631B16499209002F9F9C /* icon_144.png */,
 				700C3B3216042F52005A9E34 /* XMPPFramework.h */,
 				84AECEB316856C420070B419 /* HelioRoom */,
 				84EB1234161F688000CECA43 /* images */,
@@ -837,24 +833,24 @@
 		849DDE3F16169EEB00CA5B95 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				849DDE4016169EEB00CA5B95 /* bcon.c */,
-				849DDE4116169EEB00CA5B95 /* bcon.h */,
-				849DDE4216169EEB00CA5B95 /* bson.c */,
-				849DDE4316169EEB00CA5B95 /* bson.h */,
-				849DDE4416169EEB00CA5B95 /* encoding.c */,
-				849DDE4516169EEB00CA5B95 /* encoding.h */,
-				849DDE4616169EEB00CA5B95 /* env.h */,
-				849DDE4716169EEB00CA5B95 /* env_posix.c */,
-				849DDE4A16169EEB00CA5B95 /* gridfs.c */,
-				849DDE4B16169EEB00CA5B95 /* gridfs.h */,
-				849DDE4C16169EEB00CA5B95 /* md5.c */,
-				849DDE4D16169EEB00CA5B95 /* md5.h */,
-				849DDE4E16169EEB00CA5B95 /* mongo.c */,
-				849DDE4F16169EEB00CA5B95 /* mongo.h */,
-				849DDE5016169EEB00CA5B95 /* numbers.c */,
+				8547C32516B9A1B6008F1ED3 /* bcon.c */,
+				8547C32616B9A1B6008F1ED3 /* bcon.h */,
+				8547C32716B9A1B6008F1ED3 /* bson.c */,
+				8547C32816B9A1B6008F1ED3 /* bson.h */,
+				8547C32916B9A1B6008F1ED3 /* encoding.c */,
+				8547C32A16B9A1B6008F1ED3 /* encoding.h */,
+				8547C32B16B9A1B6008F1ED3 /* env.c */,
+				8547C32C16B9A1B6008F1ED3 /* env.h */,
+				8547C32D16B9A1B6008F1ED3 /* gridfs.c */,
+				8547C32E16B9A1B6008F1ED3 /* gridfs.h */,
+				8547C32F16B9A1B6008F1ED3 /* md5.c */,
+				8547C33016B9A1B6008F1ED3 /* md5.h */,
+				8547C33116B9A1B6008F1ED3 /* mongo.c */,
+				8547C33216B9A1B6008F1ED3 /* mongo.h */,
+				8547C33316B9A1B6008F1ED3 /* numbers.c */,
 			);
 			name = src;
-			path = "../../iOS Resources/mongodb-mongo-c-driver-aee9ff2/src";
+			path = MongoDB/src;
 			sourceTree = "<group>";
 		};
 		84AECEB316856C420070B419 /* HelioRoom */ = {
@@ -1042,6 +1038,7 @@
 		84EB1234161F688000CECA43 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				850AF2CF16B9B4F60006C6E7 /* tag_gray.png */,
 				852DCB1416B87AA5002D4B50 /* planet_bg.png */,
 				85398E6416B84BAF002CD478 /* background_01.png */,
 				85398E6216B8495C002CD478 /* shape_cloud.png */,
@@ -1159,7 +1156,6 @@
 				843D10581648AF2900DC6C34 /* spaceshipSubmitButton5.png in Resources */,
 				84D226591648D21F005603E3 /* tab_User.png in Resources */,
 				84D2265C1648D5BD005603E3 /* clear.png in Resources */,
-				8401631C16499209002F9F9C /* icon_144.png in Resources */,
 				84CB9535164C1BA900D01390 /* grabPlanet.png in Resources */,
 				84CB9537164C23CF00D01390 /* submitButtonText.png in Resources */,
 				8402065D164C3E3D00010A99 /* brown.png in Resources */,
@@ -1175,7 +1171,6 @@
 				84F352D116507EAA00DEB764 /* orangeLg.png in Resources */,
 				84F352D216507EAA00DEB764 /* pinkLg.png in Resources */,
 				84F352D316507EAA00DEB764 /* purpleLg.png in Resources */,
-				855A893E16B8327C002C8FB7 /* Helio_Icon2X.png in Resources */,
 				85398E6316B8495C002CD478 /* shape_cloud.png in Resources */,
 				85398E6516B84BAF002CD478 /* background_01.png in Resources */,
 				852DCB1516B87AA5002D4B50 /* planet_bg.png in Resources */,
@@ -1187,6 +1182,7 @@
 				852DCB3716B8895F002D4B50 /* p_purple.png in Resources */,
 				852DCB3816B8895F002D4B50 /* p_red.png in Resources */,
 				852DCB3916B8895F002D4B50 /* p_yellow.png in Resources */,
+				850AF2D016B9B4F60006C6E7 /* tag_gray.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1309,19 +1305,19 @@
 				84EA797D1615493100EC67A2 /* NSDate+XMPPDateTimeProfiles.m in Sources */,
 				84EA797E1615493100EC67A2 /* XMPPDateTimeProfiles.m in Sources */,
 				84EA79821615493900EC67A2 /* XMPPElement+Delay.m in Sources */,
-				849DDE5116169EEB00CA5B95 /* bcon.c in Sources */,
-				849DDE5216169EEB00CA5B95 /* bson.c in Sources */,
-				849DDE5316169EEB00CA5B95 /* encoding.c in Sources */,
-				849DDE5416169EEB00CA5B95 /* env_posix.c in Sources */,
-				849DDE5716169EEB00CA5B95 /* gridfs.c in Sources */,
-				849DDE5816169EEB00CA5B95 /* md5.c in Sources */,
-				849DDE5916169EEB00CA5B95 /* mongo.c in Sources */,
-				849DDE5A16169EEB00CA5B95 /* numbers.c in Sources */,
 				84137FD91648421800045E7E /* ChoosePlanetViewController.m in Sources */,
 				849D0AEB16B436F200F8002D /* TheoriesViewController.m in Sources */,
 				849D0AEC16B436F200F8002D /* TheoryReasonViewController.m in Sources */,
 				84F9826E16B43F0A00804BE4 /* OrderViewController.m in Sources */,
 				8474EC5E16B45CEB00FA0EA7 /* OrderReasonViewController.m in Sources */,
+				8547C33416B9A1B6008F1ED3 /* bcon.c in Sources */,
+				8547C33516B9A1B6008F1ED3 /* bson.c in Sources */,
+				8547C33616B9A1B6008F1ED3 /* encoding.c in Sources */,
+				8547C33716B9A1B6008F1ED3 /* env.c in Sources */,
+				8547C33816B9A1B6008F1ED3 /* gridfs.c in Sources */,
+				8547C33916B9A1B6008F1ED3 /* md5.c in Sources */,
+				8547C33A16B9A1B6008F1ED3 /* mongo.c in Sources */,
+				8547C33B16B9A1B6008F1ED3 /* numbers.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1415,6 +1411,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xmppTemplate/HelioRoom-Prefix.pch";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "$(inherited) \"$(SRCROOT)/MongoDB_src/src\"";
 				INFOPLIST_FILE = "xmppTemplate/HelioRoom-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1432,6 +1429,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xmppTemplate/HelioRoom-Prefix.pch";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "$(inherited) \"$(SRCROOT)/MongoDB_src/src\"";
 				INFOPLIST_FILE = "xmppTemplate/HelioRoom-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
